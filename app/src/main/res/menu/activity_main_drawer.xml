@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
@@ -8,11 +9,26 @@
         <item
             android:id="@+id/nav_nave1"
             android:icon="@drawable/ic_atracciones"
-            android:title="Nave 1" />
+            android:title="@string/menu_nave1" />
+
+        <item
+            android:id="@+id/nav_nave2"
+            android:icon="@drawable/ic_star"
+            android:title="@string/menu_nave2" />
+
+        <item
+            android:id="@+id/nav_nave3"
+            android:icon="@drawable/ic_comida"
+            android:title="@string/menu_nave3" />
+
+        <item
+            android:id="@+id/nav_nave4"
+            android:icon="@drawable/ic_compras"
+            android:title="@string/menu_nave4" />
+
         <item
             android:id="@+id/nav_gatitos"
-            android:title="Gatitos"
+            android:title="@string/menu_gatitos"
             android:icon="@drawable/ic_gatitos" />
-
     </group>
 </menu>
